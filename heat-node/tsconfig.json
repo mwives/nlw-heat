@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types"
+    ],
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "exclude": [
+    "node_modules",
+    "tests",
+    "jest.config.ts"
+  ]
+}

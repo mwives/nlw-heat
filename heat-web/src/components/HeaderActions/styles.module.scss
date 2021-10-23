@@ -1,0 +1,50 @@
+.userPhoto {
+  div {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-right: 1rem;
+      padding: .5rem;
+
+      border: none;
+      background: transparent;
+      color: var(--text-body);
+
+      font-size: 1.2rem;
+
+      cursor: pointer;
+
+      transition: filter .2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    padding: .5rem 1rem;
+
+    min-width: 16rem;
+    border-radius: .25rem;
+
+    background: var(--yellow);
+    color: var(--button-text);
+
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+
+    transition: filter .2s; 
+  
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}

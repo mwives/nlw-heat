@@ -1,0 +1,19 @@
+.headerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  padding: 2rem 1.5rem 2rem 2.5rem;
+
+  > img {
+    min-width: 12rem;
+    max-width: 17.5rem;
+    margin-right: 2rem;
+  }
+}
